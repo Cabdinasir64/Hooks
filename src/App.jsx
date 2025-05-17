@@ -1,4 +1,4 @@
-import UseState7 from "./UseSate/usestate7"
+import UseState8 from "./UseSate/usestate8"
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <UseState7 />
+      <UseState8 />
 
     </>
   )
