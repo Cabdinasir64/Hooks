@@ -36,13 +36,16 @@ const UseState15 = () => {
     };
 
     const increaseQty = (id) => {
-        setCart((cart) => ({
-            ...cart,
-            [id]: {
-                ...cart[id],
-                quantity: cart[id].quantity + 1,
-            },
-        }));
+        setCart((cart) => {
+            const qty = cart[id].quantity;
+            return {
+                ...cart,
+                [id]: {
+                    ...cart[id],
+                    quantity: qty + 1,
+                },
+            };
+        });
     };
 
     const decreaseQty = (id) => {
