@@ -66,16 +66,6 @@ const UseState15 = () => {
         });
     }
 
-
-
-
-
-
-
-
-
-
-
     const removeItem = (productId) => {
         setCart((prevCart) => {
             const newCart = { ...prevCart };
