@@ -35,33 +35,43 @@ const UseState15 = () => {
         });
     };
 
-    const increaseQty = (productId) => {
-        setCart((prevCart) => ({
-            ...prevCart,
-            [productId]: {
-                ...prevCart[productId],
-                quantity: prevCart[productId].quantity + 1,
+    const increaseQty = (id) => {
+        setCart((cart) => ({
+            ...cart,
+            [id]: {
+                ...cart[id],
+                quantity: cart[id].quantity + 1,
             },
         }));
     };
 
-    const decreaseQty = (productId) => {
-        setCart((prevCart) => {
-            const currentQty = prevCart[productId].quantity;
-            if (currentQty === 1) {
-                const newCart = { ...prevCart };
-                delete newCart[productId];
-                return newCart;
+    const decreaseQty = (id) => {
+        setCart((cart) => {
+            const qty = cart[id].quantity;
+            if (qty <= 1) {
+                const copy = { ...cart };
+                delete copy[id];
+                return copy;
             }
             return {
-                ...prevCart,
-                [productId]: {
-                    ...prevCart[productId],
-                    quantity: currentQty - 1,
+                ...cart,
+                [id]: {
+                    ...cart[id],
+                    quantity: qty - 1,
                 },
             };
         });
-    };
+    }
+
+
+
+
+
+
+
+
+
+
 
     const removeItem = (productId) => {
         setCart((prevCart) => {
