@@ -136,7 +136,7 @@ const UseState26 = () => {
                                 className={`px-4 py-2 rounded transition font-medium ${getButtonStyle(
                                     option
                                 )} ${selected ? "cursor-not-allowed" : ""}`}
-                                disabled={!!selected}
+                                disabled={selected}
                             >
                                 {option}
                             </button>
@@ -148,12 +148,6 @@ const UseState26 = () => {
                             {selected === "timeout" && (
                                 <p className="text-sm text-red-600">
                                     ❌ Waqtigii wuu dhamaaday!
-                                </p>
-                            )}
-                            {selected !== "timeout" && !isCorrect && (
-                                <p className="text-sm text-gray-500 mb-2">
-                                    ❌ Jawaabta saxda ah waa:{" "}
-                                    <strong>{questions[current].answer}</strong>
                                 </p>
                             )}
                             <button
