@@ -147,8 +147,7 @@ const UseState26 = () => {
                         <>
                             {selected === "timeout" && (
                                 <p className="text-sm text-red-600">
-                                    ❌ Waqtigii wuu dhamaaday! Jawaabta saxda ah:{" "}
-                                    <strong>{questions[current].answer}</strong>
+                                    ❌ Waqtigii wuu dhamaaday!
                                 </p>
                             )}
                             {selected !== "timeout" && !isCorrect && (
