@@ -104,7 +104,7 @@ const UseState26 = () => {
         setSelected(null);
         setIsCorrect(false);
         setIsFinished(false);
-        setTimeLeft(10);
+        setTimeLeft(20);
     };
 
     const getButtonStyle = (option) => {
