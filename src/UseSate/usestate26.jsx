@@ -72,7 +72,7 @@ const UseState26 = () => {
             // Go to next after 2 sec
             setTimeout(() => {
                 goToNextQuestion();
-            }, 2000);
+            }, 1997);
         }
     }, [timeLeft, selected]);
 
