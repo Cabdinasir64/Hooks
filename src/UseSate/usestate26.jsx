@@ -67,7 +67,6 @@ const UseState26 = () => {
     // Time up handler
     useEffect(() => {
         if (timeLeft === 0 && !selected && questions.length > 0) {
-            const correct = questions[current].answer;
             setSelected("timeout");
             setIsCorrect(false);
             // Go to next after 2 sec
