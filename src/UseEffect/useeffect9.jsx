@@ -13,17 +13,20 @@ const ProductFilter = () => {
         setIsLoading(true);
 
         const timer = setTimeout(() => {
-            fetch("/data.json")
-                .then(res => res.json())
-                .then(data => {
+            const fetchData = async () => {
+                try {
+                    const res = await fetch("/data.json");
+                    const data = await res.json();
                     setProducts(data);
                     setFilteredProducts(data);
+                } catch (err) {
+                    console.error("Error fetching data:", err);
+                } finally {
                     setIsLoading(false);
-                })
-                .catch(error => {
-                    console.error("Failed to fetch data:", error);
-                    setIsLoading(false);
-                });
+                }
+            };
+
+            fetchData(); 
         }, 1000);
 
         return () => clearTimeout(timer);
@@ -48,7 +51,7 @@ const ProductFilter = () => {
 
             setFilteredProducts(result);
             setIsFiltering(false);
-        }, 500); // Filtering delay for skeleton effect
+        }, 1000);
 
         return () => clearTimeout(filterTimer);
     }, [category, maxPrice, products]);
@@ -95,7 +98,6 @@ const ProductFilter = () => {
 
             {/* Content Area */}
             {isLoading || isFiltering ? (
-                // Skeleton Loading
                 <div className="w-full max-w-xl space-y-4">
                     {[...Array(5)].map((_, i) => (
                         <div
@@ -105,7 +107,6 @@ const ProductFilter = () => {
                     ))}
                 </div>
             ) : (
-                // Results
                 <div className="w-full max-w-xl">
                     {filteredProducts.length > 0 ? (
                         <ul className="space-y-3">
