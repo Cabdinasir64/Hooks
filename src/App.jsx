@@ -1,4 +1,4 @@
-import UseEffect6 from "./UseEffect/useeffect6"
+import UseEffect7 from "./UseEffect/useeffect7"
 
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <UseEffect6 />
+      <UseEffect7 />
 
     </>
   )
