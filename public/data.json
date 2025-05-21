@@ -1,12 +1,34 @@
 [
-  { "id": 1, "name": "Web Development", "category": "Development", "price": 300 },
-  { "id": 2, "name": "Graphic Design", "category": "Design", "price": 150 },
-  { "id": 3, "name": "SEO Optimization", "category": "Marketing", "price": 200 },
-  { "id": 4, "name": "App Development", "category": "Development", "price": 400 },
-  { "id": 5, "name": "Content Writing", "category": "Marketing", "price": 100 },
-  { "id": 6, "name": "UI/UX Design", "category": "Design", "price": 250 },
-  { "id": 7, "name": "Digital Marketing", "category": "Marketing", "price": 350 },
-  { "id": 8, "name": "Backend Development", "category": "Development", "price": 450 },
-  { "id": 9, "name": "Logo Design", "category": "Design", "price": 120 },
-  { "id": 10, "name": "Content Marketing", "category": "Marketing", "price": 180 }
+  {
+    "id": 1,
+    "name": "Fullstack Web Development",
+    "category": "Development",
+    "price": 120,
+    "rating": 4.5,
+    "description": "Learn frontend and backend development."
+  },
+  {
+    "id": 2,
+    "name": "UI/UX Design Masterclass",
+    "category": "Design",
+    "price": 90,
+    "rating": 4.2,
+    "description": "Master modern design principles."
+  },
+  {
+    "id": 3,
+    "name": "Digital Marketing Bootcamp",
+    "category": "Marketing",
+    "price": 75,
+    "rating": 4.7,
+    "description": "SEO, SEM, social media marketing."
+  },
+  {
+    "id": 4,
+    "name": "React Advanced Patterns",
+    "category": "Development",
+    "price": 110,
+    "rating": 4.8,
+    "description": "Advanced component patterns in React."
+  }
 ]
