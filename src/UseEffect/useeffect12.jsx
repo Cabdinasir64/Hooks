@@ -62,7 +62,7 @@ const UseEffect12 = () => {
                     <input
                         type="text"
                         placeholder="Enter task"
-                        className="flex-1 border-2 p-2 rounded"
+                        className="flex-1 border-2 p-2 rounded focus:border-blue-400 outline-none"
                         value={input}
                         onChange={(e) => setInput(e.target.value)}
                     />
@@ -89,7 +89,7 @@ const UseEffect12 = () => {
                                             type="text"
                                             value={editInput}
                                             onChange={(e) => setEditInput(e.target.value)}
-                                            className="flex-1 border-2 p-1 rounded"
+                                            className="flex-1 border-2 p-1 rounded focus:border-blue-400 outline-none"
                                             autoFocus
                                         />
                                         <button
