@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const UseEffect12 = () => {
 
-    const [task, settask] = useState([])
+    const [task, settask] = useState(["lo"])
     const [input, setinput] = useState("")
 
 
@@ -28,7 +28,7 @@ const UseEffect12 = () => {
 
      const Delete = (index) => {
         const updatedTasks = task.filter((_, i) => i !== index);
-        localStorage.removeItem()
+        localStorage.removeItem("tasks",JSON.stringify(updatedTasks))
         settask(updatedTasks);
 
     };
