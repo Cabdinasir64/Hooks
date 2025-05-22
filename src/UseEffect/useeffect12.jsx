@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const UseEffect12 = () => {
 
-    const [task, settask] = useState(["lo"])
+    const [task, settask] = useState([])
     const [input, setinput] = useState("")
 
 
