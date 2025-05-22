@@ -39,7 +39,7 @@ const UseEffect12 = () => {
 
     const saveEdit = (index) => {
         if (editInput.trim() === "") {
-            alert("Task kuma noqon karo madhan!");
+            alert("Task cannot be empty!");
             return;
         }
         const updatedTasks = [...tasks];
