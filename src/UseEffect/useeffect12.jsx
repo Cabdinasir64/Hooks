@@ -28,7 +28,7 @@ const UseEffect12 = () => {
 
      const Delete = (index) => {
         const updatedTasks = task.filter((_, i) => i !== index);
-        localStorage.removeItem("task", JSON.stringify(updatedTasks))
+        localStorage.removeItem()
         settask(updatedTasks);
 
     };
