@@ -69,7 +69,7 @@ export default function CartApp() {
 
     return (
         <div className="p-6 bg-gradient-to-br from-blue-50 to-blue-100 min-h-screen">
-            <h1 className="text-3xl font-bold text-blue-700 mb-6">🛒 Cart App (useReducer7)</h1>
+            <h1 className="text-3xl font-bold text-blue-700 mb-6">🛒 Cart App</h1>
 
             {/* Products */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
