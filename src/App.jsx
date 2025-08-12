@@ -1,8 +1,8 @@
-import UseReducer5 from './useReducer/usereducer5';
+import UseReducer6 from './useReducer/usereducer6';
 
 function App() {
   return (
-    <UseReducer5 />
+    <UseReducer6 />
   );
 }
 
