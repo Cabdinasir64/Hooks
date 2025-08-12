@@ -1,8 +1,8 @@
-import UseReducer1 from './useReducer/usereducer1';
+import UseReducer2 from './useReducer/usereducer2';
 
 function App() {
   return (
-    <UseReducer1 />
+    <UseReducer2 />
   );
 }
 
