@@ -54,7 +54,7 @@ function cartReducer(state, action) {
     }
 }
 
-// Products (maxQty kala duwan)
+
 const initialProducts = [
     { id: 1, name: "Sneakers", price: 50, maxQty: 3, img: "https://picsum.photos/200/150?1" },
     { id: 2, name: "Backpack", price: 35, maxQty: 2, img: "https://picsum.photos/200/150?2" },
