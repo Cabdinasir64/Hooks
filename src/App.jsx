@@ -1,8 +1,8 @@
-import UseEffect13 from "./UseEffect/useeffect13";
+import UseReducer1 from './useReducer/usereducer1';
 
 function App() {
   return (
-    <UseEffect13 />
+    <UseReducer1 />
   );
 }
 
