@@ -59,7 +59,7 @@ const UseReducer3 = () => {
     const handleChange = (e) => {
         dispatch({
             type: "ADDNewDate",
-            payoad: { field: e.target.name, value: e.target.value }
+            payload: { field: e.target.name, value: e.target.value }
         });
     };
 
