@@ -1,8 +1,8 @@
-import UseEffect14 from "./UseEffect/useeffect14";
+import UseEffect13 from "./UseEffect/useeffect13";
 
 function App() {
   return (
-    <UseEffect14 />
+    <UseEffect13 />
   );
 }
 
