@@ -1,9 +1,9 @@
-import UseContext4 from './useContext/usecontext4';
+import UseContext6 from './useContext/usecontext6';
 function App() {
    
 
   return (
-     <UseContext4 />
+     <UseContext6 />
        
   );
 }
