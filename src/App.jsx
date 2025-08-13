@@ -1,8 +1,8 @@
-import UseContext1  from './useContext/usecontext1';
+import UseContext2  from './useContext/usecontext2';
 
 function App() {
   return (
-    <UseContext1/>
+    <UseContext2/>
   );
 }
 
