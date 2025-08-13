@@ -2,7 +2,6 @@ import React, { createContext, useState } from "react";
 import { motion } from "framer-motion";
 import UseContext7 from "./usecontext7";
 
-
 export const ProductsContext = createContext();
 
 export default function UseContext6() {
@@ -12,8 +11,7 @@ export default function UseContext6() {
     { id: 3, name: "Phone", category: "Electronics", price: "$900", desc: "Latest smartphone with amazing features" },
   ]);
 
- 
-  const [selectedProduct, setSelectedProduct] = useState(null); 
+  const [selectedProduct, setSelectedProduct] = useState(null);
   const [mode, setMode] = useState(null);
 
   const newId = () => Date.now();
@@ -41,6 +39,11 @@ export default function UseContext6() {
     setMode("edit");
   };
 
+  const startView = (product) => {
+    setSelectedProduct(product);
+    setMode("view");
+  };
+
   const closeModal = () => {
     setMode(null);
     setSelectedProduct(null);
@@ -66,7 +69,7 @@ export default function UseContext6() {
           <div className="flex items-center justify-between mb-6">
             <div>
               <h1 className="text-2xl font-bold text-gray-800">Products</h1>
-              <p className="text-gray-500">Add, edit, and delete items using Context.</p>
+              <p className="text-gray-500">Add, edit, view, and delete items using Context.</p>
             </div>
             <button
               onClick={startCreate}
@@ -95,6 +98,12 @@ export default function UseContext6() {
                     </div>
                     <div className="flex items-center gap-2">
                       <button
+                        onClick={() => startView(product)}
+                        className="px-3 py-1.5 rounded-lg bg-green-600 text-white hover:bg-green-700 transition"
+                      >
+                        View
+                      </button>
+                      <button
                         onClick={() => startEdit(product)}
                         className="px-3 py-1.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition"
                       >
@@ -114,8 +123,6 @@ export default function UseContext6() {
           </div>
         </div>
       </div>
-
-      {/* Modal: Add/Edit Form */}
       <UseContext7 />
     </ProductsContext.Provider>
   );
