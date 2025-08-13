@@ -1,8 +1,8 @@
-import UseReducer7 from './useReducer/usereducer7';
+import UseContext1  from './useContext/usecontext1';
 
 function App() {
   return (
-    <UseReducer7/>
+    <UseContext1/>
   );
 }
 
