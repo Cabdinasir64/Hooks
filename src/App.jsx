@@ -1,9 +1,9 @@
-import UseMemo3 from './UseMemo/usememo3';
+import UseMemo4 from './UseMemo/usememo4';
 function App() {
    
 
   return (
-     <UseMemo3 />
+     <UseMemo4 />
        
   );
 }
