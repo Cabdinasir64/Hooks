@@ -1,9 +1,9 @@
-import UseContext8 from './useContext/usecontext8';
+import UseMemo1 from './UseMemo/usememo1';
 function App() {
    
 
   return (
-     <UseContext8 />
+     <UseMemo1 />
        
   );
 }
