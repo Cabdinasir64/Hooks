@@ -27,7 +27,8 @@ export default function UseMemo4() {
     }, [products, search]);
 
     const sortedProducts = useMemo(() => {
-        return [...filteredProducts].sort((a, b) =>
+        let sorted = [...filteredProducts];
+        return sorted.sort((a, b) =>
             sortOrder === "asc" ? a.price - b.price : b.price - a.price
         );
     }, [filteredProducts, sortOrder]);
