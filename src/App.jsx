@@ -1,9 +1,9 @@
-import CustomHook1 from './CustomHooks/customhook1'
+import CustomHook2 from './CustomHooks/customhook2'
 function App() {
 
 
   return (
-    <CustomHook1 />
+    <CustomHook2 />
   );
 }
 
