@@ -11,7 +11,7 @@ function useInput(initialValue) {
     return { value, onChange, reset };
 }
 
-const Example1 = () => {
+const CustomHook1 = () => {
     const name = useInput("");
     const email = useInput("");
     const [submittedData, setSubmittedData] = useState(null);
@@ -115,4 +115,4 @@ const Example1 = () => {
     );
 };
 
-export default Example1;
+export default CustomHook1;
