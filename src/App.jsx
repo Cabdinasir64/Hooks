@@ -1,9 +1,9 @@
-import UseCallback2 from './UseCallback/usecallback2';
+import UseCallback3 from './UseCallback/usecallback3';
 function App() {
    
 
   return (
-     <UseCallback2 />
+     <UseCallback3 />
        
   );
 }
