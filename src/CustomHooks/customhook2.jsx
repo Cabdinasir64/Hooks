@@ -1,6 +1,8 @@
+import useInput from "./customhook3";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import useInput from './customhook3';
+
+
 
 
 const CustomHook2 = () => {
