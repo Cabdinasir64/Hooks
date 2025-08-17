@@ -1,13 +1,13 @@
 import { Routes, Route } from 'react-router-dom';
-import UseNavigate1 from './useNavigate/usenavigate1';
-import UseNavigate2 from './useNavigate/usenavigate2';
+import UseNavigate3 from './useNavigate/usenavigate3';
+import UseNavigate4 from './useNavigate/usenavigate4';
 function App() {
 
 
   return (
     <Routes>
-      <Route path="/" element={<UseNavigate1 />} />
-      <Route path="/usenavigate2/:message" element={<UseNavigate2 />} />
+      <Route path="/" element={<UseNavigate3 />} />
+      <Route path="/usenavigate4/:productName" element={<UseNavigate4 />} />
     </Routes>
   );
 }
