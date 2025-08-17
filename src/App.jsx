@@ -1,9 +1,9 @@
-import CustomHook4 from './CustomHooks/customhook4'
+import CustomHook6 from './CustomHooks/customhook6'
 function App() {
-
+  
 
   return (
-    <CustomHook4 />
+    <CustomHook6 />
   );
 }
 
