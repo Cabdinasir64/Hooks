@@ -15,10 +15,6 @@ function galleryReducer(state, action) {
                 mainIndex:
                     (state.mainIndex - 1 + state.images.length) % state.images.length,
             };
-        case "setError":
-            return { ...state, error: action.payload };
-        case "clearError":
-            return { ...state, error: "" };
         default:
             return state;
     }
@@ -28,7 +24,6 @@ const initialState = {
     images: [],
     mainIndex: 0,
     loading: true,
-    error: "",
 };
 
 const UseReducer6 = () => {
