@@ -1,9 +1,9 @@
-import Compoundomponents1 from './Advanced-Component-Patterns/Compound-Components/Compound-Components1'
+import UseContext17 from './UseContext/usecontext17'
 function App() {
   
 
   return (
-    <Compoundomponents1 />
+    <UseContext17 />
   );
 }
 
