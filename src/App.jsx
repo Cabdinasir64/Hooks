@@ -1,9 +1,9 @@
-import CustomHook6 from './CustomHooks/customhook6'
+import UseContext12 from './UseContext/usecontext12'
 function App() {
   
 
   return (
-    <CustomHook6 />
+    <UseContext12 />
   );
 }
 
