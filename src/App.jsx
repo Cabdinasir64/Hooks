@@ -1,9 +1,9 @@
-import Virtualization1 from './Performance Optimization/virtualization/virtualization1'
+import Virtualization2 from './Performance Optimization/virtualization/virtualization2'
 function App() {
   
 
   return (
-    <Virtualization1 />
+    <Virtualization2 />
   );
 }
 
