@@ -1,9 +1,9 @@
-import UseContext17 from './UseContext/usecontext17'
+import ReactMemo1 from './Performance Optimization/React.Memo/react.memo1'
 function App() {
   
 
   return (
-    <UseContext17 />
+    <ReactMemo1 />
   );
 }
 
