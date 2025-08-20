@@ -1,9 +1,9 @@
-import ReactMemo2 from './Performance Optimization/React.Memo/react.memo2'
+import ReactMemo3 from './Performance Optimization/React.Memo/react.memo3'
 function App() {
   
 
   return (
-    <ReactMemo2 />
+    <ReactMemo3 />
   );
 }
 
