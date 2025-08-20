@@ -1,9 +1,9 @@
-import ReactMemo4 from './Performance Optimization/React.Memo/react.memo4'
+import Lazy1 from './Performance Optimization/Code Splitting & Lazy/example1'
 function App() {
   
 
   return (
-    <ReactMemo4 />
+    <Lazy1 />
   );
 }
 
