@@ -26,7 +26,7 @@ const ProductRow = ({ index, style, data }) => {
     );
 };
 
-export default function VirtualizationAPI() {
+export default function Virtualization2() {
     const [products, setProducts] = useState([]);
     const [loading, setLoading] = useState(true);
 
