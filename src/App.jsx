@@ -1,9 +1,9 @@
-import Lazy1 from './Performance Optimization/Code Splitting & Lazy/example1'
+import Lazy2 from './Performance Optimization/Code Splitting & Lazy/example3'
 function App() {
   
 
   return (
-    <Lazy1 />
+    <Lazy2 />
   );
 }
 
