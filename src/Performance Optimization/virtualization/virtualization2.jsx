@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 
 const ProductRow = ({ index, style, data }) => {
     const product = data[index];
-
     return (
         <motion.div
             style={style}
@@ -50,7 +49,7 @@ export default function VirtualizationAPI() {
     if (loading) {
         return (
             <div className="flex items-center justify-center h-screen">
-               <div className="h-8 w-8 border-2 border-dashed border-yellow-500 rounded-full animate-spin"></div>
+                <div className="h-8 w-8 border-2 border-dashed border-yellow-500 rounded-full animate-spin"></div>
             </div>
         );
     }
@@ -60,9 +59,9 @@ export default function VirtualizationAPI() {
             <h1 className="text-2xl font-bold p-4">Virtualized Products List (API)</h1>
 
             <List
-                height={600}      
+                height={600}
                 itemCount={products.length}
-                itemSize={100}    
+                itemSize={100}
                 width={"100%"}
                 itemData={products}
             >
