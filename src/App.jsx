@@ -1,9 +1,9 @@
-import Lazy2 from './Performance Optimization/Code Splitting & Lazy/example3'
+import Virtualization1 from './Performance Optimization/virtualization/virtualization1'
 function App() {
   
 
   return (
-    <Lazy2 />
+    <Virtualization1 />
   );
 }
 
