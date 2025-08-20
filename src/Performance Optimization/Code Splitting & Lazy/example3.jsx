@@ -12,11 +12,11 @@ const NavbarSkeleton = () => (
 );
 
 const SkeletonHero = () => (
-  <div className="bg-purple-200 animate-pulse py-32 flex flex-col items-center text-center">
-    <div className="h-12 w-3/4 mb-4 bg-purple-300 rounded"></div>
-    <div className="h-6 w-2/3 mb-8 bg-purple-300 rounded"></div>
-    <div className="h-12 w-40 bg-purple-400 rounded"></div>
-  </div>
+    <div className="bg-purple-200 animate-pulse py-32 flex flex-col items-center text-center">
+        <div className="h-12 w-3/4 mb-4 bg-purple-300 rounded"></div>
+        <div className="h-6 w-2/3 mb-8 bg-purple-300 rounded"></div>
+        <div className="h-12 w-40 bg-purple-400 rounded"></div>
+    </div>
 );
 
 
