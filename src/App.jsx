@@ -1,9 +1,9 @@
-import Virtualization3 from './Performance Optimization/virtualization/virtualization3'
+import Zustand2 from './State management/Zustand/Zustand2'
 function App() {
-  
+
 
   return (
-    <Virtualization3 />
+    <Zustand2 />
   );
 }
 
