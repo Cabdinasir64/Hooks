@@ -7,8 +7,7 @@ export default function TodoList() {
     const [editId, setEditId] = useState(null)
     const [tab, setTab] = useState('All')
 
-    const { todos, addTodo, toggleTodo, editTodo, removeTodo, clearAll } =
-        useTodoStore()
+    const { todos, addTodo, toggleTodo, editTodo, removeTodo, clearAll } = useTodoStore()
     const handleAdd = () => {
         if (text.trim() === '') {
             alert('Please enter a todo!')
