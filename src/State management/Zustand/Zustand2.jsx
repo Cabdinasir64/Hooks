@@ -2,7 +2,7 @@ import React from 'react'
 import { useCounterStore } from './Zustand1'
 import { motion, AnimatePresence } from 'framer-motion'
 
-export default function Counter() {
+export default function Zustand1() {
     const { count, increase, decrease, reset } = useCounterStore()
 
     return (
