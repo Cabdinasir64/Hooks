@@ -21,11 +21,7 @@ export default function TodoList() {
         }
         setText('')
     }
-    tab === 'All'
-        ? todos
-        : tab === 'Active'
-            ? todos.filter((t) => !t.completed)
-            : todos.filter((t) => t.completed)
+    const filteredTodos = tab === 'All' ? todos : tab === 'Active' ? todos.filter((t) => !t.completed) : todos.filter((t) => t.completed)
 
     return (
         <div className="flex flex-col items-center justify-start min-h-screen p-6 bg-gray-100">
