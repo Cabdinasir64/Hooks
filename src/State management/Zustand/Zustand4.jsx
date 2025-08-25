@@ -73,11 +73,7 @@ export default function TodoList() {
                                 />
                                 <span
                                     className={`cursor-pointer ${todo.completed ? 'line-through text-gray-400' : ''
-                                        }`}
-                                    onDoubleClick={() => {
-                                        setEditId(todo.id)
-                                        setText(todo.text)
-                                    }}
+                                    }`}
                                 >
                                     {todo.text}
                                 </span>
