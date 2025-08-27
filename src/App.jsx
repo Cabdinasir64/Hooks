@@ -3,7 +3,7 @@ function App() {
 
 
   return (
-    <Zustand11 />
+    <Zustand11 userId={1} />
   );
 }
 
