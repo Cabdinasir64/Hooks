@@ -1,9 +1,9 @@
-import Zustand6 from './State management/Zustand/Zustand6'
+import Zustand9 from './State management/Zustand/Zustand9'
 function App() {
 
 
   return (
-    <Zustand6 />
+    <Zustand9 />
   );
 }
 
