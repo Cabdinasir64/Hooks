@@ -1,9 +1,9 @@
-import Zustand11 from './State management/Zustand/Zustand11'
+import RTL1 from './Testing/RTL/Rtl1'
 function App() {
 
 
   return (
-    <Zustand11 userId={1} />
+    <RTL1 />
   );
 }
 
